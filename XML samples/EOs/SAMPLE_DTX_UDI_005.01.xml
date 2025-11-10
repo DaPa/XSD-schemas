@@ -77,7 +77,7 @@
         <udidi:substances>
           <udidi:substance xsi:type="udidi:MedicalHumanProductSubstanceType">
             <udidi:INN>Susbtance</udidi:INN>
-            <udidi:type>MEDICINAL_PRODUCT</udidi:type>
+            <udidi:type>MEDICINAL_PRODUCT_SUBSTANCE</udidi:type>
           </udidi:substance>
         </udidi:substances>
         <udidi:clinicalSizes>

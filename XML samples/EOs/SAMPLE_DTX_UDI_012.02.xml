@@ -33,35 +33,35 @@
     <message:payload>
         <device:DTXPackageUDI>
             <udidi:udiIdentifier>
-                <commondevice:DICode><!-- Primary UDI of the device or System and/or Procedure pack (Root node)  --></commondevice:DICode>
+                <commondevice:DICode>DUMMY-DI-001</commondevice:DICode>
                 <commondevice:issuingEntityCode>GS1</commondevice:issuingEntityCode>
             </udidi:udiIdentifier>
             <udidi:packages>
 			<e:version>2</e:version>
                 <udidi:package>
                     <udidi:identifier>
-                        <commondevice:DICode><!-- UDI of the package (2) --></commondevice:DICode>
+                        <commondevice:DICode>DUMMY-DI-001</commondevice:DICode>
                         <commondevice:issuingEntityCode>GS1</commondevice:issuingEntityCode>
                     </udidi:identifier>
                     <udidi:status>
                         <commondevice:code>NO_LONGER_PLACED_ON_THE_MARKET</commondevice:code>
                     </udidi:status>
 					<udidi:child>
-						<commondevice:DICode><!-- UDI of the previous package (1) --></commondevice:DICode>
+						<commondevice:DICode>DUMMY-DI-001</commondevice:DICode>
                         <commondevice:issuingEntityCode>GS1</commondevice:issuingEntityCode>
 					</udidi:child>
                     <udidi:numberOfItems>4</udidi:numberOfItems>
                 </udidi:package>
 				<udidi:package>
                     <udidi:identifier>
-                        <commondevice:DICode><!-- UDI of the package (1) --></commondevice:DICode>
+                        <commondevice:DICode>DUMMY-DI-001</commondevice:DICode>
                         <commondevice:issuingEntityCode>GS1</commondevice:issuingEntityCode>
                     </udidi:identifier>
                     <udidi:status>
                         <commondevice:code>ON_THE_MARKET</commondevice:code>
                     </udidi:status>
 					<udidi:child>
-						<commondevice:DICode><!-- Primary UDI of the device or System and/or Procedure pack (Root node) --></commondevice:DICode>
+						<commondevice:DICode>DUMMY-DI-001</commondevice:DICode>
                         <commondevice:issuingEntityCode>GS1</commondevice:issuingEntityCode>
 					</udidi:child>
                     <udidi:numberOfItems>100</udidi:numberOfItems>

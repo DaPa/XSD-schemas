@@ -35,7 +35,7 @@
     <message:pageSize>10</message:pageSize>
     <message:criteriaPayload>
         <message:sscpDownloadCriteria>
-			<service:basicUDICode><!-- Basic UDI-DI code --></service:basicUDICode>
+			<service:basicUDICode>BASIC-0001</service:basicUDICode>
         </message:sscpDownloadCriteria>
     </message:criteriaPayload>
 </message:PullRequest>

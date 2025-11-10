@@ -36,8 +36,8 @@
     <message:criteriaPayload>
         <message:sscpDownloadCriteria>
             <service:certificate>
-                <service:CertificateNumber><!-- Certificate number --></service:CertificateNumber>
-                <service:RevisionNumber><!-- Certificate revision number --></service:RevisionNumber>
+                <service:CertificateNumber>CERT-0002</service:CertificateNumber>
+                <service:RevisionNumber>REV-0002</service:RevisionNumber>
             </service:certificate>
         </message:sscpDownloadCriteria>
     </message:criteriaPayload>

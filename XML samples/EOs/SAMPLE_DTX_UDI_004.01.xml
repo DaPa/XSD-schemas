@@ -12,8 +12,8 @@
     <message:messageID>a64a5a1f-da86-4810-a0de-27d0338811a9</message:messageID>
     <message:recipient>
         <message:node>
-            <s:nodeActorCode>EUDAMED</s:nodeActorCode>
-            <s:nodeID>eDelivery:EUDAMED</s:nodeID> 
+            <service:nodeActorCode>EUDAMED</service:nodeActorCode>
+            <service:nodeID>eDelivery:EUDAMED</service:nodeID> 
         </message:node>
         <message:service>
             <service:serviceAccessToken><!-- YOUR SECURITY TOKEN  --></service:serviceAccessToken>
@@ -24,7 +24,7 @@
     <message:payload/>
     <message:sender>
         <message:node>
-            <s:nodeActorCode><!-- YOUR SRN/ActorID code HERE --></s:nodeActorCode>
+            <service:nodeActorCode><!-- YOUR SRN/ActorID code HERE --></service:nodeActorCode>
             <service:nodeID><!-- YOUR Party ID HERE  --></service:nodeID>
         </message:node>
         <message:service>

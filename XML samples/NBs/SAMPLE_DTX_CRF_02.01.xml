@@ -39,7 +39,7 @@
             <commonbasic:End>2022-01-01</commonbasic:End>
         </service:IssueDate>
         <service:CertificateType>MDR_TECHNICAL_DOCUMENTATION</service:CertificateType>
-        <service:CertificateNumber><!-- Certificate number --></service:CertificateNumber>
+        <service:CertificateNumber>CERT-0001</service:CertificateNumber>
         <service:Status>ISSUED</service:Status>
     </message:issuedCertificateDownloadCriteria>
 </message:criteriaPayload>

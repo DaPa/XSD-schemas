@@ -36,7 +36,7 @@
     <message:pageSize>10</message:pageSize>
     <message:criteriaPayload>
         <message:diDownloadCriteria>
-            <service:MFActorCode><!-- MF SRN --></service:MFActorCode>
+            <service:MFActorCode>FI-MF-000000123</service:MFActorCode>
             <service:Country>AT</service:Country>
         </message:diDownloadCriteria>
     </message:criteriaPayload>

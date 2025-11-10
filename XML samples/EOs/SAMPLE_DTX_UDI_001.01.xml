@@ -124,7 +124,7 @@
 				</udidi:deviceMarking>
 				<udidi:baseQuantity>1</udidi:baseQuantity>
 				<udidi:productDesignerActor>
-					<udidi:productDesignerActorCode><!-- SRN for the Product Designer --></udidi:productDesignerActorCode>
+					<udidi:productDesignerActorCode>FI-MF-000000123</udidi:productDesignerActorCode>
 				</udidi:productDesignerActor>
 				<udidi:latex>false</udidi:latex>
 				<udidi:reprocessed>false</udidi:reprocessed>
@@ -153,7 +153,7 @@
 								<lsn:textValue>Device_Substance_Human_Product</lsn:textValue>
 							</lsn:name>
 						</udidi:names>
-						<udidi:type>HUMAN_PRODUCT</udidi:type>
+						<udidi:type>HUMAN_PRODUCT_SUBSTANCE</udidi:type>
 					</udidi:substance>
 				</udidi:substances>
 				<udidi:clinicalSizes>

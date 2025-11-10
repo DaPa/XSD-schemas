@@ -39,7 +39,7 @@
             <commonbasic:End>2022-01-01</commonbasic:End>
         </service:RefusalDate>
         <service:CertificateType>IVDR_PRODUCTION_QUALITY_ASSURANCE</service:CertificateType>
-		<service:ApplicationNumber><!-- Refused certificate application number --></service:ApplicationNumber>
+		<service:ApplicationNumber>APP-0001</service:ApplicationNumber>
     </message:refusedCertificateDownloadServiceCriteria>
 </message:criteriaPayload>
 </message:PullRequest>

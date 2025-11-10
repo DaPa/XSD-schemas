@@ -30,7 +30,7 @@
     <message:pageSize>10</message:pageSize>
     <message:criteriaPayload>
         <message:actorsDownloadCriteria>           
-            <service:type>XX</service:type>
+            <service:type>MF</service:type>
         </message:actorsDownloadCriteria>
     </message:criteriaPayload>
 </message:PullRequest>

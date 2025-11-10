@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by European Commission DG SANTE (European Commission DG SANTE) -->
-<message:Push version="3.0.3" xmlns:udidi="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/UDIDI/v1"
+<message:Push version="3.0.22.1" xmlns:udidi="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/UDIDI/v1"
               xmlns:message="https://ec.europa.eu/tools/eudamed/dtx/servicemodel/Message/v1"
               xmlns:udt="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Device/LegacyDevice/EUDIData/v1"
               xmlns:service="https://ec.europa.eu/tools/eudamed/dtx/servicemodel/Service/v1" 
@@ -50,7 +50,7 @@
 				<commondevice:issuingEntityCode>EUDAMED</commondevice:issuingEntityCode>
 			</udidi:basicUDIIdentifier>
 			<udidi:MDNCodes>A01010101</udidi:MDNCodes>
-			<!-- <udidi:referenceNumber>Reference_123</udidi:referenceNumber> -->
+			<udidi:referenceNumber>Reference_123</udidi:referenceNumber>
 			<udidi:sterile>false</udidi:sterile>
 			<udidi:sterilization>false</udidi:sterilization>
 			<udidi:tradeNames>

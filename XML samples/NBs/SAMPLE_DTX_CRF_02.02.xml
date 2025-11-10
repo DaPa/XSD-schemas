@@ -39,7 +39,7 @@
             <commonbasic:End>2022-01-01</commonbasic:End>
         </service:IssueDate>
         <service:CertificateType>IVDR_TYPE_EXAMINATION</service:CertificateType>
-		<service:ActorCode><!-- Economic Operator SRN --></service:ActorCode>
+		<service:ActorCode>FI-MF-000000123</service:ActorCode>
         <service:Status>ISSUED</service:Status>
     </message:issuedCertificateDownloadCriteria>
 </message:criteriaPayload>

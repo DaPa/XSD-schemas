@@ -39,7 +39,7 @@
             <commonbasic:End>2022-01-01</commonbasic:End>
         </service:IssueDate>
         <service:CertificateType>IVDR_TYPE_EXAMINATION</service:CertificateType>
-		<service:NBActorCode><!-- NB number --></service:NBActorCode>
+		<service:NBActorCode>0123</service:NBActorCode>
         <service:Status>ISSUED</service:Status>
     </message:issuedCertificateDownloadCriteria>
 </message:criteriaPayload>

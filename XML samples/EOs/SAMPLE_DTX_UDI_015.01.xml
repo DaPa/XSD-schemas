@@ -33,8 +33,8 @@ xsi:schemaLocation="https://ec.europa.eu/tools/eudamed/dtx/servicemodel/Message/
 <message:payload>
 	<pd:DTXProductDesigner>
 		<productdesigner:uDIDIIdentifier>
-			<commondevice:DICode><!-- UDI-DI/EUDAMED DI CODE HERE--></commondevice:DICode>
-			<commondevice:issuingEntityCode><!-- ISSUING ENTITY --></commondevice:issuingEntityCode>
+			<commondevice:DICode>DUMMY-DI-001</commondevice:DICode>
+			<commondevice:issuingEntityCode>EUDAMED</commondevice:issuingEntityCode>
 		</productdesigner:uDIDIIdentifier>
  
 		<productdesigner:productDesignerActor>

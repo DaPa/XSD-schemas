@@ -23,7 +23,7 @@
     <message:payload/>
     <message:sender>
         <message:node>
-            <service:nodeActorCode><!-- YOUR SRN/ActorID code HERE -->/service:nodeActorCode>
+            <service:nodeActorCode><!-- YOUR SRN/ActorID code HERE --></service:nodeActorCode>
             <service:nodeID><!-- YOUR Party ID HERE  --></service:nodeID>
         </message:node>
         <message:service>

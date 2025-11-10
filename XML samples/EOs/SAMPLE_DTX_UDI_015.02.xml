@@ -34,11 +34,11 @@ xsi:schemaLocation="https://ec.europa.eu/tools/eudamed/dtx/servicemodel/Message/
 
 	<pd:DTXProductDesigner>
 		<pda:uDIDIIdentifier>
-			<commondevice:DICode><!-- UDI-DI/EUDAMED DI CODE HERE--></commondevice:DICode>
-			<commondevice:issuingEntityCode><!-- ISSUING ENTITY --></commondevice:issuingEntityCode>
+			<commondevice:DICode>DUMMY-DI-001</commondevice:DICode>
+			<commondevice:issuingEntityCode>EUDAMED</commondevice:issuingEntityCode>
 		</pda:uDIDIIdentifier>
 		<pda:productDesignerActor>
-			<udidi:productDesignerActorCode><!-- ActorID/SRN code of the product original manufacturer registered in Eudamed --></udidi:productDesignerActorCode>
+			<udidi:productDesignerActorCode>FI-MF-000000123</udidi:productDesignerActorCode>
 		</pda:productDesignerActor>
 	</pd:DTXProductDesigner>
  
