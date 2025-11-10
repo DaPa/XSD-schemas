@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message:PullRequest version="3.0.22.1" xmlns:cecpcrtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Certificate/Cecp/v1" xmlns:issuedcrtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Certificate/IssuedCertificate/v1" xmlns:crtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Certificate/v1" xmlns:lnks="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Links/v1" xmlns:actorrel="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Actor/Relationship/v1" xmlns:lngs="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Common/LanguageSpecific/v1" xmlns:addr="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Party/Address/v1" xmlns:cmnt="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Common/Comment/v1" xmlns:udidi="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/UDIDI/v1" xmlns:e="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/v1" xmlns:message="https://ec.europa.eu/tools/eudamed/dtx/servicemodel/Message/v1" xmlns:dtxmktinfo="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/MktInfo/v1" xmlns:decisioncrtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Certificate/CertificateDecisionUpdate/v1" xmlns:actor="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Actor/v1" xmlns:dcsn="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Common/Decision/v1" xmlns:mktinfo="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/MktInfo/MarketInfo/v1" xmlns:service="https://ec.europa.eu/tools/eudamed/dtx/servicemodel/Service/v1" xmlns:budi="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Device/BasicUDI/v1" xmlns:appcrtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Certificate/ApplicationCertificate/v1" xmlns:didecisioncrtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/DICertificateDecision/v1" xmlns:scopecrtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Certificate/Scope/v1" xmlns:ns28="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Device/LegacyDevice/EUDI/v1" xmlns:doc="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Common/Document/v1" xmlns:sscp="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/SSCP/v1" xmlns:device="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Device/v1" xmlns:commondevice="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Device/CommonDevice/v1" xmlns:party="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Party/v1" xmlns:areg="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Actor/Registration/v1" xmlns:ns29="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Device/LegacyDevice/EUDIData/v1">
+    <message:correlationID>APP-DTX-000000855</message:correlationID>
+    <message:creationDateTime>2020-11-12T16:32:42.420+01:00</message:creationDateTime>
+    <message:messageID>APP-DTX-000000853</message:messageID>
+    <message:recipient>
+        <message:node>
+            <service:nodeActorCode>EUDAMED</service:nodeActorCode>
+            <service:nodeID>eDelivery:EUDAMED</service:nodeID>            
+        </message:node>
+        <message:service>
+            <service:serviceAccessToken><!-- YOUR SECURITY TOKEN --></service:serviceAccessToken>
+            <service:serviceID>ACTOR_REGISTRATION</service:serviceID>
+            <service:serviceOperation>GET</service:serviceOperation>
+        </message:service>
+    </message:recipient>
+    <message:payload/>
+    <message:sender>
+        <message:node>
+            <service:nodeActorCode><!-- YOUR SRN/ActorID code HERE --></service:nodeActorCode>
+            <service:nodeID><!-- YOUR Party ID HERE  --></service:nodeID>  
+        </message:node>
+        <message:service>
+            <service:serviceID>REPLY_SERVICE</service:serviceID>
+            <service:serviceOperation>GET</service:serviceOperation>
+        </message:service>
+    </message:sender>
+    <message:pageNumber>0</message:pageNumber>
+    <message:pageSize>20</message:pageSize>
+    <message:criteriaPayload>
+        <message:actorRegistrationDownloadCriteria>
+            <service:initialSubmissionDate>2019-02-05+01:00</service:initialSubmissionDate>
+        </message:actorRegistrationDownloadCriteria>
+    </message:criteriaPayload>
+</message:PullRequest>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message:Push version="3.0.22.1" xmlns:cecpcrtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Certificate/Cecp/v1" xmlns:issuedcrtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Certificate/IssuedCertificate/v1" xmlns:crtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Certificate/v1" xmlns:lnks="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Links/v1" xmlns:actorrel="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Actor/Relationship/v1" xmlns:lngs="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Common/LanguageSpecific/v1" xmlns:addr="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Party/Address/v1" xmlns:cmnt="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Common/Comment/v1" xmlns:udidi="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/UDIDI/v1" xmlns:e="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/v1" xmlns:message="https://ec.europa.eu/tools/eudamed/dtx/servicemodel/Message/v1" xmlns:dtxmktinfo="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/MktInfo/v1" xmlns:decisioncrtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Certificate/CertificateDecisionUpdate/v1" xmlns:actor="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Actor/v1" xmlns:dcsn="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Common/Decision/v1" xmlns:mktinfo="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/MktInfo/MarketInfo/v1" xmlns:service="https://ec.europa.eu/tools/eudamed/dtx/servicemodel/Service/v1" xmlns:budi="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Device/BasicUDI/v1" xmlns:appcrtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Certificate/ApplicationCertificate/v1" xmlns:didecisioncrtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/DICertificateDecision/v1" xmlns:scopecrtf="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Certificate/Scope/v1" xmlns:ns28="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Device/LegacyDevice/EUDI/v1" xmlns:doc="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Common/Document/v1" xmlns:sscp="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/SSCP/v1" xmlns:device="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Device/v1" xmlns:commondevice="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Device/CommonDevice/v1" xmlns:party="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Party/v1" xmlns:areg="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Actor/Registration/v1" xmlns:ns29="https://ec.europa.eu/tools/eudamed/dtx/datamodel/Entity/Device/LegacyDevice/EUDIData/v1">
+	<message:conversationID>0c4e479e-32a8-4439-9eea-4cd6c25c5745</message:conversationID>
+	<message:correlationID>a754cdd7-3602-45b4-a993-c25adb18a60e</message:correlationID>
+	<message:creationDateTime>2020-09-14T16:14:48.512+01:00</message:creationDateTime>
+	<message:messageID>a64a5a1f-da86-4810-a0de-27d0338811a9</message:messageID>
+	<message:recipient>
+		<message:node>
+            <service:nodeActorCode>EUDAMED</service:nodeActorCode>
+            <service:nodeID>eDelivery:EUDAMED</service:nodeID>            
+        </message:node>
+        <message:service>
+            <service:serviceAccessToken><!-- YOUR SECURITY TOKEN --></service:serviceAccessToken>
+			<service:serviceID>ACTOR_REGISTRATION</service:serviceID>
+			<service:serviceOperation>POST</service:serviceOperation>
+		</message:service>
+	</message:recipient>
+	<message:payload>
+		<areg:ActorRegistrationAssesment>
+			<areg:applicationID>UNKNOWN APP</areg:applicationID>
+			<areg:validationChkActorAddress>
+				<addr:addressComplement>Abteilung A</addr:addressComplement>
+				<addr:city>Hamburg</addr:city>
+				<addr:country>DE</addr:country>
+				<addr:GPSCoordinates>
+					<addr:latitude>
+						<addr:value>53.579654</addr:value>
+					</addr:latitude>
+					<addr:longitude>
+						<addr:value>10.122363</addr:value>
+					</addr:longitude>
+				</addr:GPSCoordinates>				
+				<addr:postCode>22045</addr:postCode>
+				<addr:street>Kuehnstrasse</addr:street>
+				<addr:streetNum>75</addr:streetNum>
+			</areg:validationChkActorAddress>
+			<areg:validationChkActorOrgName>SIEWA Coloplast GmbH Medizinischer Fachbedarf und Homecareunternehmen</areg:validationChkActorOrgName>
+			<areg:decision xsi:type="areg:ActorRegistrationApprovalDecisionType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+				<dcsn:comments>
+					<cmnt:comment>
+						<cmnt:date>2019-02-05T12:30:00+01:00</cmnt:date>
+						<cmnt:ownerActorCode>BE-CA-001</cmnt:ownerActorCode>
+						<cmnt:text>
+							<lngs:language>DE</lngs:language>
+							<lngs:textValue>Kontrolle ist positiv</lngs:textValue>
+						</cmnt:text>
+					</cmnt:comment>
+				</dcsn:comments>
+				<dcsn:date>2019-02-05+01:00</dcsn:date>
+				<dcsn:ownerActorCode>BE-CA-001</dcsn:ownerActorCode>
+				<areg:reason>OK</areg:reason>
+			</areg:decision>
+			<areg:actorType>MF</areg:actorType>
+		</areg:ActorRegistrationAssesment>
+	</message:payload>
+	<message:sender>
+		<message:node>
+			<service:nodeActorCode><!-- YOUR SRN/ActorID code HERE --></service:nodeActorCode>
+            <service:nodeID><!-- YOUR Party ID HERE  --></service:nodeID> 		
+		</message:node>
+		<message:service>
+			<service:serviceID>NOTIFICATION_SERVICE</service:serviceID>
+			<service:serviceOperation>GET</service:serviceOperation>
+		</message:service>
+	</message:sender>
+</message:Push>
